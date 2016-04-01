@@ -20,7 +20,7 @@ class Queue:
     def __init__(self):
         self.queue_list = deque([])
 
-    def add(self, value):
+    def push(self, value):
         """
         Add element as the last item in the Queue.
 
@@ -28,7 +28,7 @@ class Queue:
         """
         self.queue_list.append(value)
 
-    def remove(self):
+    def pop(self):
         """
         Remove element from the front of the Queue and return it's value.
 
